@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lobby Launcher</string>
+
+    <!-- Home -->
+    <string name="home_countdown">%1$s indul %2$d mp múlva…</string>
+    <string name="home_countdown_cancel">Nyomj meg bármit, hogy itt maradj</string>
+    <string name="status_connected">Bekapcsolva</string>
+    <string name="status_standby">Készenlét</string>
+    <string name="status_disconnected">Nincs csatlakoztatva</string>
+    <string name="status_unknown">Bemenet</string>
+    <string name="action_tv_home">TV főoldal</string>
+    <string name="action_tv_settings">TV beállítások</string>
+    <string name="action_customise">Testreszabás</string>
+    <string name="empty_title">Nincs bemenet</string>
+    <string name="empty_body">A TV nem jelzett HDMI- vagy más külső bemenetet. Kipróbálhatod a launchert néhány minta eszközzel.</string>
+    <string name="empty_demo">Minta eszközök mutatása</string>
+    <string name="empty_settings_hint">Kapcsold be lent a demó módot, hogy minta eszközökkel kipróbáld.</string>
+    <string name="demo_switch_toast">Demó mód: váltás ide: %1$s</string>
+    <string name="switch_failed_toast">Ezen a TV-n nem sikerült váltani ide: %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Beállítások</string>
+    <string name="settings_description">A források neve, ikonja, sorrendje és láthatósága, valamint az automatikus választás.</string>
+    <string name="section_sources">Források</string>
+    <string name="source_hidden">Rejtett</string>
+    <string name="settings_reorder">Sorrend</string>
+    <string name="settings_reorder_sub">A főoldali sorrend, a HDMI-számozástól függetlenül.</string>
+    <string name="section_auto">Automatikus választás</string>
+    <string name="auto_enabled">Automatikus váltás</string>
+    <string name="auto_enabled_sub">Amikor megjelenik a főoldal, egy visszaszámlálás után átvált az alapértelmezett forrásra. Bármelyik gomb megszakítja.</string>
+    <string name="auto_default">Alapértelmezett forrás</string>
+    <string name="auto_delay">Visszaszámlálás</string>
+    <string name="auto_only_connected">Csak ha be van kapcsolva</string>
+    <string name="auto_only_connected_sub">Nincs visszaszámlálás, ha a TV szerint az eszköz ki van kapcsolva vagy nincs csatlakoztatva.</string>
+    <string name="none">Nincs</string>
+    <string name="seconds_value">%d mp</string>
+    <string name="section_home">Főoldal</string>
+    <string name="show_disconnected">Üres bemenetek mutatása</string>
+    <string name="show_disconnected_sub">Azokat a bemeneteket is mutatja (halványan), amelyekre nincs semmi kötve.</string>
+    <string name="show_tuner">TV-tuner bemenetek mutatása</string>
+    <string name="show_tuner_sub">Antenna, kábel és műholdas bemenetek.</string>
+    <string name="clock_format">Óra</string>
+    <string name="clock_system">Rendszerbeállítás szerint</string>
+    <string name="clock_12h">12 órás (de./du.)</string>
+    <string name="clock_24h">24 órás</string>
+    <string name="clock_description">Hogyan jelenjen meg az idő a főoldal jobb felső sarkában.</string>
+    <string name="home_button">Home gomb</string>
+    <string name="home_button_active">Beállítva</string>
+    <string name="home_button_inactive">Nincs beállítva</string>
+    <string name="section_more">Egyéb</string>
+    <string name="icon_pack">Ikoncsomag</string>
+    <string name="icon_pack_sub">Az összes beépített eszközikon.</string>
+    <string name="demo_mode">Demó mód</string>
+    <string name="demo_mode_sub">A valódi bemenetek helyett minta eszközöket mutat.</string>
+    <string name="tv_settings_sub">Kép, hang, hálózat és minden más.</string>
+    <string name="version">Verzió</string>
+
+    <!-- Source editor -->
+    <string name="automatic">Automatikus</string>
+    <string name="custom">Egyéni</string>
+    <string name="edit_name">Név</string>
+    <string name="edit_icon">Ikon</string>
+    <string name="edit_color">Szín</string>
+    <string name="edit_show_on_home">Látszik a főoldalon</string>
+    <string name="edit_reset">Visszaállítás automatikusra</string>
+    <string name="edit_reset_sub">Vissza erre: „%1$s”, a felismert ikonnal.</string>
+    <string name="section_info">Részletek</string>
+    <string name="edit_input">TV-bemenet</string>
+    <string name="edit_detected">Felismerve mint</string>
+    <string name="edit_reported">Az eszköz ezt jelzi</string>
+    <string name="edit_status">Állapot</string>
+    <string name="not_recognised">Nem ismert</string>
+    <string name="edit_missing">Ez a forrás már nem elérhető.</string>
+    <string name="edit_hint">A nevet és az ikont abból ismeri fel, amit a csatlakoztatott eszköz HDMI-CEC-en jelez. Itt minden módosítható.</string>
+    <string name="rename_title">Név</string>
+    <string name="rename_description">Írj be egy nevet a távirányítóval, vagy válassz egy javaslatot.</string>
+    <string name="rename_save">Mentés</string>
+    <string name="rename_suggestions">Javaslatok</string>
+    <string name="default_description">Ezt a forrást választja automatikusan a visszaszámlálás végén.</string>
+    <string name="delay_description">Mennyit várjon a főoldal a váltás előtt.</string>
+
+    <!-- Pickers -->
+    <string name="icons_title_for">Ikon: %1$s</string>
+    <string name="icon_pack_description">Az apphoz rajzolt saját ikonok. Nem hivatalos logók.</string>
+    <string name="name_prompt_title">Legyen a neve „%1$s”?</string>
+    <string name="name_prompt_current">Jelenlegi név: %1$s</string>
+    <string name="name_prompt_use">Név használata</string>
+    <string name="name_prompt_keep">Jelenlegi név megtartása</string>
+    <string name="colors_title_for">Szín: %1$s</string>
+    <string name="colors_description">Az ikon háttérszíne.</string>
+    <string name="reorder_hint_idle">Válassz ki egy forrást az OK-val az áthelyezéshez</string>
+    <string name="reorder_hint_moving">Mozgatás: ◀ ▶ · Lerakás: OK</string>
+    <string name="category_console">Játékkonzolok</string>
+    <string name="category_handheld">Kézi konzolok és PC-k</string>
+    <string name="category_streaming">Streaming boxok és stickek</string>
+    <string name="category_tv_service">Szolgáltatói set-top boxok</string>
+    <string name="category_media">Médialejátszók</string>
+    <string name="category_audio">Hang</string>
+    <string name="category_computer">Számítógépek</string>
+    <string name="category_other">Általános</string>
+
+    <!-- Home button -->
+    <string name="hb_description">A távirányító Home gombja ezt a launchert nyissa meg.</string>
+    <string name="hb_default_home">Alapértelmezett főoldal app</string>
+    <string name="hb_default_home_sub">Azokon a TV-ken működik, ahol cserélhető a főoldal app. Sok Google TV-n nem.</string>
+    <string name="hb_default_home_yes">Ez a launcher</string>
+    <string name="hb_default_home_no">Másik app</string>
+    <string name="hb_service">Home gomb szolgáltatás</string>
+    <string name="hb_service_sub">Kisegítő szolgáltatás, ami elkapja a Home gombot. Google TV-n erre van szükség.</string>
+    <string name="on">Be</string>
+    <string name="off">Ki</string>
+    <string name="hb_intercept">Megnyitás Home gombra</string>
+    <string name="hb_intercept_sub">Rövid nyomás: ez a launcher. Hosszú nyomás: a TV saját főoldala.</string>
+    <string name="hb_wake">Megnyitás a TV bekapcsolásakor</string>
+    <string name="hb_wake_sub">Bekapcsolás után rögtön a forráslista jelenik meg.</string>
+    <string name="hb_replace">A TV főoldalának lecserélése</string>
+    <string name="hb_replace_sub">Ha megjelenik a TV saját főoldala, helyette ez a launcher jön fel.</string>
+    <string name="hb_requires_service">Előbb kapcsold be a Home gomb szolgáltatást.</string>
+    <string name="hb_adb_title">Beállítás számítógépről (adb)</string>
+    <string name="hb_adb_home">Legyen ez a főoldal app</string>
+    <string name="hb_adb_service">Home gomb szolgáltatás bekapcsolása</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_label">Lobby Launcher Home gomb</string>
+    <string name="accessibility_description">Megnyitja a Lobby Launchert, amikor megnyomod a Home gombot. Csak a Home gombot és az előtérben lévő app nevét látja; semmit nem tárol és nem küld el.</string>
+</resources>

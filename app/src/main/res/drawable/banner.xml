@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180dp TV banner: four "who's watching" style avatars, no text, no logos. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="0"
+                android:endY="180"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF23252D" android:offset="0" />
+                <item android:color="#FF0B0B0E" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- avatar 1: blue -->
+    <path android:pathData="M64,82m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="64" android:endY="112" android:startX="64" android:startY="52" android:type="linear">
+                <item android:color="#FF5AC8FA" android:offset="0" />
+                <item android:color="#FF0A64D6" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- avatar 2: indigo, focused (bigger, with ring) -->
+    <path
+        android:pathData="M128,80m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFFFF"
+        android:fillColor="#00000000" />
+    <path android:pathData="M128,80m-33,0a33,33 0,1 1,66 0a33,33 0,1 1,-66 0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="128" android:endY="113" android:startX="128" android:startY="47" android:type="linear">
+                <item android:color="#FF8E8CFF" android:offset="0" />
+                <item android:color="#FF4B3BD6" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- avatar 3: green -->
+    <path android:pathData="M192,82m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="192" android:endY="112" android:startX="192" android:startY="52" android:type="linear">
+                <item android:color="#FF7DE38D" android:offset="0" />
+                <item android:color="#FF1F9E4A" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- avatar 4: orange -->
+    <path android:pathData="M256,82m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="256" android:endY="112" android:startX="256" android:startY="52" android:type="linear">
+                <item android:color="#FFFFB35C" android:offset="0" />
+                <item android:color="#FFE5602A" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- simple white glyphs: play, gamepad dots, monitor, plug -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M58,70L76,82L58,94Z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M110,72h36a8,8 0,0 1,8 8v0a8,8 0,0 1,-8 8h-36a8,8 0,0 1,-8 -8v0a8,8 0,0 1,8 -8z" />
+    <path android:fillColor="#FF4B3BD6" android:pathData="M113,78h8v4h-8zM115,76h4v8h-4z" />
+    <path android:fillColor="#FF4B3BD6" android:pathData="M138,78m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0M143,82m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M178,70h28a2,2 0,0 1,2 2v16a2,2 0,0 1,-2 2h-28a2,2 0,0 1,-2 -2v-16a2,2 0,0 1,2 -2zM186,94h12v3h-12z" />
+    <path android:fillColor="#FF1F9E4A" android:pathData="M180,73h24v14h-24z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M248,68h4v8h-4zM260,68h4v8h-4zM244,76h24v8a12,12 0,0 1,-24 0zM253,94h6v6h-6z" />
+
+    <!-- label pills -->
+    <path android:fillColor="#99FFFFFF" android:pathData="M48,126h32a3,3 0,0 1,0 6h-32a3,3 0,0 1,0 -6z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M106,126h44a3,3 0,0 1,0 6h-44a3,3 0,0 1,0 -6z" />
+    <path android:fillColor="#99FFFFFF" android:pathData="M176,126h32a3,3 0,0 1,0 6h-32a3,3 0,0 1,0 -6z" />
+    <path android:fillColor="#99FFFFFF" android:pathData="M240,126h32a3,3 0,0 1,0 6h-32a3,3 0,0 1,0 -6z" />
+</vector>

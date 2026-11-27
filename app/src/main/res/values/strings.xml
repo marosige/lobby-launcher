@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lobby Launcher</string>
+
+    <!-- Home -->
+    <string name="home_countdown">Switching to %1$s in %2$d…</string>
+    <string name="home_countdown_cancel">Press any button to stay here</string>
+    <string name="status_connected">On</string>
+    <string name="status_standby">Standby</string>
+    <string name="status_disconnected">Nothing connected</string>
+    <string name="status_unknown">Input</string>
+    <string name="action_tv_home">TV home</string>
+    <string name="action_tv_settings">TV settings</string>
+    <string name="action_customise">Customise</string>
+    <string name="empty_title">No inputs found</string>
+    <string name="empty_body">This TV did not report any HDMI or other external inputs. You can try the launcher with a few sample devices.</string>
+    <string name="empty_demo">Show sample devices</string>
+    <string name="empty_settings_hint">Turn on demo mode below to try the launcher with sample devices.</string>
+    <string name="demo_switch_toast">Demo mode: would switch to %1$s</string>
+    <string name="switch_failed_toast">Could not switch to %1$s on this TV</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_description">Name, icon, order and visibility of your sources, plus automatic selection.</string>
+    <string name="section_sources">Sources</string>
+    <string name="source_hidden">Hidden</string>
+    <string name="settings_reorder">Reorder sources</string>
+    <string name="settings_reorder_sub">Choose the order on the home screen, independent of HDMI numbers.</string>
+    <string name="section_auto">Automatic selection</string>
+    <string name="auto_enabled">Switch automatically</string>
+    <string name="auto_enabled_sub">When the home screen appears, a countdown switches to the default source. Any button cancels it.</string>
+    <string name="auto_default">Default source</string>
+    <string name="auto_delay">Countdown</string>
+    <string name="auto_only_connected">Only when it\'s on</string>
+    <string name="auto_only_connected_sub">Skip the countdown if the TV reports the device as off or disconnected.</string>
+    <string name="none">None</string>
+    <string name="seconds_value">%d s</string>
+    <string name="section_home">Home screen</string>
+    <string name="show_disconnected">Show empty inputs</string>
+    <string name="show_disconnected_sub">Also show inputs with nothing plugged in (dimmed).</string>
+    <string name="show_tuner">Show TV tuner inputs</string>
+    <string name="show_tuner_sub">Antenna, cable and satellite inputs.</string>
+    <string name="clock_format">Clock</string>
+    <string name="clock_system">System default</string>
+    <string name="clock_12h">12-hour (AM/PM)</string>
+    <string name="clock_24h">24-hour</string>
+    <string name="clock_description">How the time in the top corner of the home screen is shown.</string>
+    <string name="home_button">Home button</string>
+    <string name="home_button_active">Set up</string>
+    <string name="home_button_inactive">Not set up</string>
+    <string name="section_more">More</string>
+    <string name="icon_pack">Icon pack</string>
+    <string name="icon_pack_sub">All built-in device icons.</string>
+    <string name="demo_mode">Demo mode</string>
+    <string name="demo_mode_sub">Replace the real inputs with sample devices.</string>
+    <string name="tv_settings_sub">Picture, sound, network and everything else.</string>
+    <string name="version">Version</string>
+
+    <!-- Source editor -->
+    <string name="automatic">Automatic</string>
+    <string name="custom">Custom</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_icon">Icon</string>
+    <string name="edit_color">Colour</string>
+    <string name="edit_show_on_home">Show on home screen</string>
+    <string name="edit_reset">Reset to automatic</string>
+    <string name="edit_reset_sub">Back to “%1$s” with the detected icon.</string>
+    <string name="section_info">Details</string>
+    <string name="edit_input">TV input</string>
+    <string name="edit_detected">Recognised as</string>
+    <string name="edit_reported">Reported by the device</string>
+    <string name="edit_status">Status</string>
+    <string name="not_recognised">Not recognised</string>
+    <string name="edit_missing">This source is no longer available.</string>
+    <string name="edit_hint">Names and icons are detected from what the connected device reports over HDMI-CEC. Everything here can be changed.</string>
+    <string name="rename_title">Name</string>
+    <string name="rename_description">Type a name with the remote or pick a suggestion.</string>
+    <string name="rename_save">Save</string>
+    <string name="rename_suggestions">Suggestions</string>
+    <string name="default_description">The source picked automatically when the countdown finishes.</string>
+    <string name="delay_description">How long the home screen waits before switching.</string>
+
+    <!-- Pickers -->
+    <string name="icons_title_for">Icon for %1$s</string>
+    <string name="icon_pack_description">Original icons drawn for this app. Not official logos.</string>
+    <string name="name_prompt_title">Use the name “%1$s”?</string>
+    <string name="name_prompt_current">Current name: %1$s</string>
+    <string name="name_prompt_use">Use name</string>
+    <string name="name_prompt_keep">Keep current name</string>
+    <string name="colors_title_for">Colour for %1$s</string>
+    <string name="colors_description">Background of the avatar.</string>
+    <string name="reorder_hint_idle">Select a source with OK to move it</string>
+    <string name="reorder_hint_moving">Move with ◀ ▶ · Press OK to drop</string>
+    <string name="category_console">Game consoles</string>
+    <string name="category_handheld">Handhelds and PC handhelds</string>
+    <string name="category_streaming">Streaming boxes and sticks</string>
+    <string name="category_tv_service">TV providers and set-top boxes</string>
+    <string name="category_media">Media players</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_computer">Computers</string>
+    <string name="category_other">Generic</string>
+
+    <!-- Home button -->
+    <string name="hb_description">Make the Home button on the remote open this launcher.</string>
+    <string name="hb_default_home">Default home app</string>
+    <string name="hb_default_home_sub">Works on TVs that let you change the home app. Many Google TV devices don\'t.</string>
+    <string name="hb_default_home_yes">This launcher</string>
+    <string name="hb_default_home_no">Other app</string>
+    <string name="hb_service">Home button service</string>
+    <string name="hb_service_sub">Accessibility service that catches the Home button. Needed on Google TV.</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="hb_intercept">Open on Home press</string>
+    <string name="hb_intercept_sub">Short press opens this launcher. Long press still opens the TV\'s own home.</string>
+    <string name="hb_wake">Open when the TV turns on</string>
+    <string name="hb_wake_sub">Show the source list right after power-on.</string>
+    <string name="hb_replace">Replace the TV home screen</string>
+    <string name="hb_replace_sub">Whenever the TV\'s own home appears, show this launcher instead.</string>
+    <string name="hb_requires_service">Turn on the Home button service first.</string>
+    <string name="hb_adb_title">Setup from a computer (adb)</string>
+    <string name="hb_adb_home">Make this the home app</string>
+    <string name="hb_adb_service">Turn on the Home button service</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_label">Lobby Launcher Home button</string>
+    <string name="accessibility_description">Opens Lobby Launcher when you press Home on the remote. It only reads the Home key and the name of the app in front; nothing is stored or sent anywhere.</string>
+</resources>

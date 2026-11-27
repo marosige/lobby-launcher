@@ -1,0 +1,75 @@
+package dev.germar.sourcelauncher.model
+
+/** Shapes of the original icon pack. Names are persisted, so only ever add new entries. */
+enum class Glyph {
+    CONSOLE_TOWER,
+    CONSOLE_SLAB,
+    CONSOLE_BOX,
+    CONSOLE_COMPACT,
+    CONSOLE_FLAT,
+    CONSOLE_RETRO,
+    HYBRID_CONSOLE,
+    HANDHELD_PC,
+    GAMEPAD,
+    STREAM_BOX,
+    STREAM_STICK,
+    STREAM_PUCK,
+    SET_TOP_BOX,
+    SATELLITE,
+    DISC,
+    RECEIVER,
+    DESKTOP,
+    LAPTOP,
+    MINI_PC,
+    BOARD,
+    CAMERA,
+    PHONE,
+    ANTENNA,
+    HDMI,
+    AV,
+    PLAY,
+    STAR,
+    MONOGRAM,
+    CONSOLE_SLAB_TRIPLE,
+    CONSOLE_GROOVED,
+    CONSOLE_CURVED,
+    CONSOLE_CONCAVE,
+    CONSOLE_TWO_TONE,
+    CONSOLE_PERFORATED,
+    CONSOLE_SLIM,
+    CONSOLE_CUBE,
+    GAMEPAD_SYMMETRIC,
+    GAMEPAD_TABLET,
+    GAMEPAD_CLASSIC,
+    HANDHELD_TRACKPADS,
+    HANDHELD_ANGULAR,
+    HANDHELD_DETACHABLE,
+    HANDHELD_GRIPS,
+    SOUNDBAR,
+    TABLET,
+}
+
+/** Two-stop gradients (ARGB) used behind the glyphs. Names are persisted, so only add entries. */
+enum class Palette(val top: Long, val bottom: Long) {
+    GRAPHITE(0xFF4A4A50, 0xFF1C1C1F),
+    MIDNIGHT(0xFF3D6BFF, 0xFF0B2A8F),
+    OCEAN(0xFF3FA2FF, 0xFF1159C7),
+    EMERALD(0xFF3CCB6C, 0xFF0E7A2E),
+    CRIMSON(0xFFFF5A5F, 0xFFC4122F),
+    STEEL(0xFF5C7EA8, 0xFF1B2838),
+    TANGERINE(0xFFFFAE45, 0xFFE8590C),
+    VIOLET(0xFFA56BFF, 0xFF5B23B8),
+    MAGENTA(0xFFFF4FB0, 0xFFB0006E),
+    TEAL(0xFF34D1C1, 0xFF0A7C78),
+    LIME(0xFF9BD34A, 0xFF3E7B12),
+    SKY(0xFF9DD3FF, 0xFF4C8DF0),
+    SILVER(0xFFB4B4BC, 0xFF5E5E66),
+    SUNSET(0xFFFF8A65, 0xFFD6336C),
+    INDIGO(0xFF7B79FF, 0xFF2F2CA8),
+    GOLD(0xFFF7C948, 0xFFB7791F),
+}
+
+data class Appearance(val glyph: Glyph, val palette: Palette)
+
+fun <T : Enum<T>> enumOrNull(values: Array<T>, name: String?): T? =
+    name?.let { wanted -> values.firstOrNull { it.name == wanted } }
